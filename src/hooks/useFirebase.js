@@ -10,6 +10,7 @@ const useFirebase = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [isLogin, setIsLogin] = useState(false)
 
 
     const auth = getAuth();
@@ -34,18 +35,18 @@ const useFirebase = () => {
             setIsLoading(false);
         });
         return () => unsubscribed;
-    }, [])
+    }, [isLoading])
 
-    const signUpGoogle = event => {
-        console.log(event.target.value)
-        event.preventDefault()
+    // const signUpGoogle = event => {
+    //     console.log(event.target.value)
+    //     event.preventDefault()
 
-            .then(result => {
-                console.log(result.user)
-                setUser(result.user)
-            })
+    //         .then(result => {
+    //             console.log(result.user)
+    //             setUser(result.user)
+    //         })
 
-    };
+    // };
 
     const logOut = () => {
         setIsLoading(true);
@@ -77,15 +78,21 @@ const useFirebase = () => {
         setPassword(e.target.value);
     }
 
+    const toggleLogin = e => {
+        setIsLogin(e.target.checked)
+    }
+
 
     return {
         user,
         isLoading,
         signInUsingGoogle,
-        signUpGoogle,
+
         handleRegistration,
         handleEmailChange,
         handlePasswordChange,
+        isLogin,
+        toggleLogin,
         logOut
 
     }

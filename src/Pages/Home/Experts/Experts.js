@@ -53,7 +53,7 @@ const Experts = () => {
     return (
         <div id="expert" className="container">
             <h2 className="text-primary mt-5">Our Experts</h2>
-            <div className="row">
+            <div className="row" style={{ marginTop: "50px", marginBottom: "50px" }}>
                 {
                     experts.map(expert => <Expert
                         key={expert.name}
