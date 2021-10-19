@@ -7,6 +7,8 @@
         "timing": "Monday 4pm to 6pm",
         "img": "https://i.ibb.co/Wc8pSDs/doctor4.png",
         "fees": "$105.99",
+        "contact no": "+961 050982548",
+        "email": "johnywalker10@gmail.com",
         "description": "An orthopedic doctor, also known as an orthopedic surgeon, specializes in diagnosing and treating injuries or illnesses to the musculoskeletal system. The orthopedic doctor will work to repair and preserve the bones, joints, ligaments, and skeleton"
     },
     {
@@ -17,6 +19,8 @@
         "timing": "Tuesday 10am to 1pm",
         "img": "https://i.ibb.co/QJMN22g/doctor7.png",
         "fees": "$115.99",
+        "contact no": "+961 050982538",
+        "email": "rajeevmenon@gmail.com",
         "description": "Cardiologists are physicians who diagnose and treat heart diseases and cardiovascular ailments. ... They only work with people who need special heart-related care or have had heart-related conditions earlier. A cardiologist will often focus on one type of patient. An adult cardiologist sees only adult patients."
     },
     {
@@ -27,6 +31,8 @@
         "timing": "Thursday 7am to 10am",
         "img": "https://i.ibb.co/5jVbk8b/doctor3.png",
         "fees": "$105.99",
+        "contact no": "+961 050982540",
+        "email": "kolluri230@gmail.com",
         "description": "Dermatology is a branch of medicine which deals with all types of skin, hair & nail problems. Dermatology Department at AIG Hospitals is run by International Dermatologist trained in UK and USA. All procedures are carried out effectively and safely in the hands of a skilled dermatologist."
     },
     {
@@ -37,6 +43,8 @@
         "timing": "Friday 4pm to 6pm",
         "img": "https://i.ibb.co/FBtbf7L/doctor6.png",
         "fees": "$108.99",
+        "contact no": "+961 0509825480",
+        "email": "paladugu30@gmail.com",
         "description": "She has expertise in managing all kinds of kidney disorders such as acute kidney injury, glomerular disorders, chronic kidney disease, kidney stones, urinary tract infections, dialysis and kidney transplantation. She is well versed in managing different dialysis therapies such as hemodialysis, hemodiafiltration, peritoneal dialysis, CRRT and hemoperfusion/plasma therapies. Her special interests include critical care nephrology and kidney transplantation."
     },
     {
@@ -47,6 +55,8 @@
         "timing": "Saturday 4pm to 6pm",
         "img": "https://i.ibb.co/RSJ7RZ1/doctor5.png",
         "fees": "$99.99",
+        "contact no": "+961 050982528",
+        "email": "bhartakashyap0@gmail.com",
         "description": "An ophthalmologist is a medical or osteopathic doctor who specializes in eye and vision care. Ophthalmologists differ from optometrists and opticians in their levels of training and in what they can diagnose and treat."
     },
     {
@@ -57,6 +67,8 @@
         "timing": "Sunday 4pm to 6pm",
         "img": "https://i.ibb.co/Y2TF0vb/doctor1.png",
         "fees": "$122.99",
+        "contact": "+961 050982543",
+        "email": "siddharthsrinivas0550@gmail.com",
         "description": "A neurologist is a medical doctor with specialized training in diagnosing, treating, and managing disorders of the brain and nervous system including, but not limited to, Alzheimer’s disease, amyotrophic lateral sclerosis (ALS), concussion, epilepsy, migraine, multiple sclerosis, Parkinson’s disease, and stroke."
     }
 ]

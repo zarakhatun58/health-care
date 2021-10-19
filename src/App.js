@@ -11,6 +11,10 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute'
 import DoctorDetails from './Pages/Details/DoctorDetails';
 import Footer from './Pages/Shared/Footer/Footer';
 import Register from './Pages/Login/Register/Register';
+import Services from './Pages/Home/Services/Services';
+
+import Experts from './Pages/Home/Experts/Experts';
+import Helpline from './Pages/Details/Helpline/Helpline';
 
 function App() {
   return (
@@ -19,19 +23,31 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
+
             <Route exact path="/">
               <Home></Home>
             </Route>
+
             <Route path="/home">
               <Home></Home>
             </Route>
+
+
             <PrivateRoute path="/doctorDetails/:serviceId">
               <DoctorDetails></DoctorDetails>
             </PrivateRoute>
+
             <Route path="/register"><Register></Register></Route>
+
             <Route path="/login">
               <Login></Login>
             </Route>
+
+            <Route path="/services"><Services></Services> </Route>
+            <Route path="/expert"> <Experts></Experts> </Route>
+            <Route path="/helpline"><Helpline></Helpline> </Route>
+
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>

@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../../hooks/useFirebase';
 
 const Register = () => {
-    const { signUpGoogle } = useFirebase();
+    const { signUpGoogle, handleRegistration } = useFirebase();
     return (
         <div>
             <h2> Registration for Apointment</h2>
 
-            <Form style={{ width: "600px", backgroundColor: "lightblue", marginLeft: "330px" }}>
+            <Form onSubmit={handleRegistration} style={{ width: "600px", backgroundColor: "lightblue", marginLeft: "330px" }}>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>
@@ -42,7 +42,10 @@ const Register = () => {
                         <Form.Label>State</Form.Label>
                         <Form.Select defaultValue="Choose...">
                             <option>Choose...</option>
-                            <option>...</option>
+                            <option>west bengal</option>
+                            <option>Mumbai</option>
+                            <option>Banglore</option>
+                            <option>Dhaka</option>
                         </Form.Select>
                     </Form.Group>
 

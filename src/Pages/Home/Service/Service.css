@@ -9,6 +9,27 @@
     width: 310px;
     height: 300px;
     border-radius: 25px;
+    background-color: white ;
 
+}
+
+.service h4{
+    color: rgb(11, 76, 216);
+}
+
+.service h5{
+    color: maroon;
+}
+.service h6{
+    color: lightseagreen;
+}
+
+.service i{
+    color: rgb(19, 131, 196);
+    
+    border: 1px solid lightseagreen;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-left: 5px;
 }
 

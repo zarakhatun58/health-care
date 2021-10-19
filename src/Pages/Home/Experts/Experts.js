@@ -1,9 +1,12 @@
 import React from 'react';
 
-import doctor1 from '../../../images/doctors/doctor1.png'
-import doctor2 from '../../../images/doctors/doctor2.png'
-import doctor3 from '../../../images/doctors/doctor3.png'
-import doctor4 from '../../../images/doctors/doctor4.png'
+import services1 from '../../../images/services/5.jpg'
+import services2 from '../../../images/services/3.jpg'
+import services3 from '../../../images/services/7.jpg'
+import services4 from '../../../images/services/6.jpg'
+import services5 from '../../../images/services/1.jpg'
+import services6 from '../../../images/services/11.jpg'
+
 
 
 
@@ -13,25 +16,37 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: doctor1,
+        img: services1,
         name: 'Andrew Smith',
         expertize: '-Cardiac Surgen-'
     },
     {
-        img: doctor2,
+        img: services2,
         name: 'John Anderson',
         expertize: '-Mental Disorder Expert-'
     },
     {
-        img: doctor3,
+        img: services3,
         name: 'Zakaria Smith',
         expertize: '-Pulmonary Expert-'
     },
     {
-        img: doctor4,
-        name: 'Sakib Anderson',
-        expertize: '-Opthamology Expert-'
+        img: services4,
+        name: 'William Anderson',
+        expertize: '-Neurology Expert-'
     },
+    {
+        img: services5,
+        name: 'Panday Jaccy',
+        expertize: '-General surgen Expert-'
+    },
+    {
+        img: services6,
+        name: 'Jackson William',
+        expertize: '-Dentist Expert-'
+    },
+
+
 ]
 
 const Experts = () => {
