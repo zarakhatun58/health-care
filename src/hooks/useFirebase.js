@@ -111,19 +111,3 @@ const useFirebase = () => {
 }
 export default useFirebase;
 
-/*
- // observe user stet change
-    useEffect(() => {
-        const unsubscribed = onAuthStateChanged(auth, user => {
-            if (user) {
-                setUser(user);
-            } else {
-                setUser({})
-            }
-            setIsLoading(false);
-        });
-        return () => unsubscribed;
-    }, [isLoading])
-
-
-*/

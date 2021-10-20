@@ -18,9 +18,9 @@ const Login = () => {
             <h4 style={{ color: "tomato" }}> Please login</h4>
             <form onSubmit={handleRegister} >
                 {/* <input type="email" onChange={handleEmailChange} placeholder="Enter email" /> <br />
-                <input type="password" onBlur={handlePasswordChange} placeholder="Enter password" /> <br />
+                <input type="password" onBlur={handlePasswordChange} placeholder="Enter password" /> <br /> */}
 
-                <button type="button" style={{ backgroundColor: "lightblue" }}>Submit</button> <br /> <br /> */}
+                {/* <button type="button" style={{ backgroundColor: "lightblue" }}>Submit</button> <br /> <br /> */}
                 <div>--------------------</div>
                 <button type="button" onClick={signInUsingGoogle} style={{ backgroundColor: "lightblue" }}>Sign in with google</button>
                 <br />

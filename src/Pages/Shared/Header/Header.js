@@ -41,18 +41,10 @@ const Header = () => {
 
                             }
 
-                            {/* <Link to="/register"> <input type="submit" />Sign Up </Link>
-                            {user?.email ?
-                                (<Link to="/login"> <input type="submit" />Log out </Link>) :
-                                (<Link to="/login"> <input type="submit" />Login </Link>)
-
-                            } */}
-
-
-
 
                             <Navbar.Text>
                                 Signed in as: <a href="#login">{user?.displayName}</a>
+
                             </Navbar.Text>
 
                         </Navbar.Collapse>

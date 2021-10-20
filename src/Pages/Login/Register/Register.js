@@ -1,7 +1,8 @@
 import React from 'react';
-import { Col, Form, Row } from 'react-bootstrap';
+import { Form, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useFirebase from '../../../hooks/useFirebase';
+import './Register.css'
 
 const Register = () => {
     const { handleRegister, toggleLogin, isLogin,
@@ -9,27 +10,24 @@ const Register = () => {
 
 
     return (
-        <div>
-            {/* <h2>Please {isLogin ? 'Login' : 'Registration for Apointment'}</h2> */}
+        <div className="mx-auto">
 
+            <Form onSubmit={handleRegister} className="register" >
+                <h4>Please {isLogin ? 'Login' : 'Registration for Apointment'}</h4>
 
+                <Row className="mb-3">
 
-            <Form onSubmit={handleRegister} style={{ width: "600px", backgroundColor: "lightblue", marginLeft: "330px" }}>
-                <h2>Please {isLogin ? 'Login' : 'Registration for Apointment'}</h2>
-
-                <Row classNameName="mb-3">
-
-                    <Form.Group as={Col} controlId="formGridName">
+                    <Form.Group as={Row} controlId="formGridName">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Enter Name" />
                     </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridEmail">
+                    <Form.Group as={Row} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>
                         <Form.Control onBlur={handleEmailChange} type="email" placeholder="Enter email" />
                     </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridPassword">
+                    <Form.Group as={Row} controlId="formGridPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" />
                     </Form.Group>
