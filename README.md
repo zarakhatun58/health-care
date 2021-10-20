@@ -2,7 +2,9 @@
 
 # Medical Health Care
 
-Live link: (https://medical-health-care-5fef4.web.app/)#
+
+Live Link:(https://medical-health-care-5fef4.web.app/)
+
 - Description:Health care (also health-care or healthcare) is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
 
 
