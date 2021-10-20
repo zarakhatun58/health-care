@@ -21,14 +21,24 @@
 
 .header img{
     width: 50px;
-    animation-direction: left;
-    animation-delay:1s ;
-    animation-duration: 4s;
+    
     border-radius: 50%;
     animation-direction: reverse;
    
 }
-@keyframes new{
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
+
+
+/* make it responsive */
+
+@media only screen and (max-width:688px) {
+    .header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .header{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import './Helpline.css'
 
 const Helpline = () => {
     return (
-        <div style={{ display: "flex", justifyContent: "space-between", marginLeft: "200px", marginRight: "200px", marginTop: "50px", marginBottom: "50px" }}>
+        <div className="helpline">
             <div >
-                <img src="https://i.ibb.co/2Z0pXd6/logo11.jpg" alt="" style={{ width: "400px" }} />
+                <img src="https://i.ibb.co/2Z0pXd6/logo11.jpg" alt="" style={{ width: "200px" }} />
             </div>
             <div>
                 <h2 style={{ color: "blue" }}> Emergency Help Line</h2>

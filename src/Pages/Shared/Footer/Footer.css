@@ -1,13 +1,15 @@
 .footer{
     background-color:rgb(12, 119, 114);
     height: 380px;
-    color: white;
+    /* color: white; */
+    color: black;
     
 }
 
 
 
 .footer-low{
+    margin-left: 50px;
    display: grid;
    grid-template-columns: repeat(4, 1fr);
 }
@@ -37,3 +39,18 @@
   .footer h2{
       color: tomato;
   }
+
+  /* make it responsive */
+
+@media only screen and (max-width:688px) {
+    .footer-low{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .footer-low{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

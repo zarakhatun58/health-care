@@ -1,0 +1,23 @@
+
+.helpline{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+margin:50px ;
+
+     /* display: "flex", justifyContent: "space-between", marginLeft: "200px", marginRight: "200px", marginTop: "50px", marginBottom: "50px" }} */
+}
+
+/* make it responsive */
+
+@media only screen and (max-width:688px) {
+    .helpline{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .helpline{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

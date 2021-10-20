@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-
+import './DoctorDetails.css'
 
 const DoctorsDetails = (props) => {
     const { serviceId } = useParams();
@@ -17,10 +17,7 @@ const DoctorsDetails = (props) => {
 
 
         <div>
-            <div style={{
-                display: "flex", justifyContent: "space-between",
-                marginRight: "100px", marginLeft: "100px", marginTop: "100px",
-            }}>
+            <div className="doctors">
 
                 <div>
                     <img src={doctorsDetails.img} alt="" />

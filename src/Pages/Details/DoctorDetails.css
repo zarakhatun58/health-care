@@ -1,0 +1,28 @@
+.doctors{
+   
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+        /* display: flex;
+        justify-content: space-between; */
+       margin-right: 100px;
+       margin-left: 100px;
+        margin-top: 50px;
+}
+
+
+
+
+/* make it responsive */
+
+@media only screen and (max-width:688px) {
+    .doctors{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .doctors{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
